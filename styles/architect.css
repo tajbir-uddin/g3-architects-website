@@ -4,6 +4,7 @@
 /* shared styles */
 * {
     font-family: 'Work Sans', sans-serif;
+    /* margin: 0; */
 }
 
 .btn-primary {
@@ -77,6 +78,7 @@ nav li a {
 main {
     max-width: 1440px;
     margin: 70px auto;
+    padding-left: 10px;
 }
 
 /* teams styles */
@@ -196,6 +198,16 @@ main {
     width: 165px;
 }
 
+/* footer styles */
+footer {
+    color: #424242;
+    text-align: center;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    background: #FFF4E7;
+    padding: 40px;
+}
+
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width:576px) {
@@ -216,7 +228,7 @@ main {
         margin-left: 0;
     }
 
-    .ten-years-badge{
+    .ten-years-badge {
         position: static;
         max-width: 300px;
     }
